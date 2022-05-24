@@ -1,0 +1,42 @@
+Algoritmo sin_titulo
+	Escribir  "porfavor ingrese su nombre"
+	leer nom
+	Escribir " por favor ingrese su apellido"
+	leer ape
+	Escribir "ingrese su ciudad"
+	leer ciudad
+	Escribir  "ingrese su pais"
+	leer pais
+	Escribir "ingrese su correo"
+	leer correo1
+	Escribir "ingrese su telefono"
+	leer telefono
+	Escribir "ingrese su edad"
+	leer edad
+	Escribir  "ingrese su dia de nacimiento"
+	Leer dia	
+	Escribir  "ingrese su mes de nacimiento"
+	leer mes
+	Escribir  "ingresa su año de cuando nacio"
+	leer año
+	Escribir "ingresa una contraseña"
+	Leer pasword1
+	Escribir "ingresa nuevamente una contraseña"
+	Leer pasword2
+	si pasword1=pasword2 Entonces
+		Escribir "hola ",nom " " ,ape " de ",ciudad " del pais de " ,pais "tu correo es " ,correo1 " tu telefono es " ,telefono "su edad es " ,edad " y su fecha de nacimiento es " ,dia "/" mes "/" año
+	SiNo
+		Escribir  "intentalo de nuevo"
+	FinSi
+	Escribir "para que inicie sesion ingrese su correo"
+	leer correo2
+	Si correo1=correo2 Entonces
+		Escribir "ahora ingrese su contraseña"
+		Leer pasword3
+		SI pasword2=pasword3 Entonces
+			Escribir "a iniciado sesion"
+		SiNo
+			Escribir "no se a podido iniciar sesion intentelo denuevo"
+		FinSi
+	FinSi
+FinAlgoritmo
